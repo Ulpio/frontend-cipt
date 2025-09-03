@@ -7,7 +7,7 @@ export default function NavBar() {
   const navigate = useNavigate();
 
   return (
-    <header className="mdc-top-app-bar">
+    // <header className="mdc-top-app-bar">
       <div className="mdc-top-app-bar__row">
         <section className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
           <span className="mdc-top-app-bar__title">🏢 CIPT Reservas</span>
@@ -60,6 +60,6 @@ export default function NavBar() {
           )}
         </section>
       </div>
-    </header>
+    // </header>
   );
 }
